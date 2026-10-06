@@ -5,6 +5,9 @@ import RegisterPage from './pages/RegisterPage';
 import BrowseTasksPage from './pages/BrowseTasksPage';
 import DashboardPage from './pages/DashboardPage';
 import PostTaskPage from './pages/PostTaskPage';
+import TaskDetailsPage from './pages/TaskDetailsPage';
+import ProfilePage from './pages/ProfilePage';
+import NotificationsPage from './pages/NotificationsPage';
 
 function App() {
   return (
@@ -16,6 +19,9 @@ function App() {
         <Route path="/browse" element={<BrowseTasksPage />} />
         <Route path="/dashboard" element={<DashboardPage />} />
         <Route path="/post-task" element={<PostTaskPage />} />
+        <Route path="/task-details" element={<TaskDetailsPage />} />
+        <Route path="/profile" element={<ProfilePage />} />
+        <Route path="/notifications" element={<NotificationsPage />} />
       </Routes>
     </BrowserRouter>
   );
