@@ -1,5 +1,3 @@
-import Navbar from '../components/Navbar';
-
 const Navbar = () => {
   return (
     <nav className="navbar">
