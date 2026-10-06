@@ -19,7 +19,7 @@ function App() {
         <Route path="/browse" element={<BrowseTasksPage />} />
         <Route path="/dashboard" element={<DashboardPage />} />
         <Route path="/post-task" element={<PostTaskPage />} />
-        <Route path="/task-details" element={<TaskDetailsPage />} />
+        <Route path="/task/:id" element={<TaskDetailsPage />} />
         <Route path="/profile" element={<ProfilePage />} />
         <Route path="/notifications" element={<NotificationsPage />} />
       </Routes>
